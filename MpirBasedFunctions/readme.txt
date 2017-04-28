@@ -9,3 +9,11 @@ https://github.com/BrianGladman/mpir
 
 Make sure that the file mpir.h is replaced by the file mpir.h
 which was used in the generation of the MPIR library.
+
+Compile with:
+g++ -o main *.cpp -lgmp -std=gnu++11 -lpthread
+
+Run:
+
+./main
+
